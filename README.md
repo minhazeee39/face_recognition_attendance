@@ -17,7 +17,7 @@ haarcascade_frontalface_default.xml: Haar Cascade model for face detection.
 test_face_recognition.py: Main script to run the face recognition attendance system.
 Installation
 Clone the repository:
-git clone https://github.com/yourusername/face_recognition_attendance.git
+git clone https://github.com/minhazeee39/face_recognition_attendance.git
 cd face_recognition_attendance
 Install the required packages:
 pip install opencv-python numpy scikit-learn pywin32
@@ -26,14 +26,14 @@ Ensure the Haar Cascade model is in the correct directory.
 The haarcascade_frontalface_default.xml file should be placed in the same directory as your scripts.
 Usage
 # Adding Faces to the System:
-Run add_faces.py to capture and store face encodings in faces_data.pkl.
-Follow the on-screen instructions to add a new person’s face and name.
-python add_faces.py
-Running the Attendance System:
-Execute test_face_recognition.py to start the live face recognition system.
-The system will detect, recognize, and log attendance when the 'o' key is pressed.
-python test_face_recognition.py
-Viewing Attendance Records:
+Run add_faces.py to capture and store face encodings in faces_data.pkl.  
+Follow the on-screen instructions to add a new person’s face and name.  
+python add_faces.py  
+Running the Attendance System:  
+Execute test_face_recognition.py to start the live face recognition system.  
+The system will detect, recognize, and log attendance when the 'o' key is pressed. 
+python test_face_recognition.py  
+Viewing Attendance Records:  
 Attendance is saved in CSV format (e.g., attendance_<date>.csv).
 Open the CSV files to view attendance records for specific dates.
 Voice Notification
