@@ -34,16 +34,16 @@ Execute test_face_recognition.py to start the live face recognition system.
 The system will detect, recognize, and log attendance when the 'o' key is pressed. 
 python test_face_recognition.py  
 Viewing Attendance Records:  
-Attendance is saved in CSV format (e.g., attendance_<date>.csv).
-Open the CSV files to view attendance records for specific dates.
-Voice Notification
+Attendance is saved in CSV format (e.g., attendance_<date>.csv).  
+Open the CSV files to view attendance records for specific dates.  
+Voice Notification  
 The system uses Windows' built-in text-to-speech functionality to announce that attendance has been taken successfully. This feature requires the pywin32 package.
 
 # Future Enhancements
-Improve Recognition Accuracy: Incorporate deep learning models for better accuracy.
-GUI Interface: Develop a graphical user interface for easier interaction.
-Email Notifications: Send email notifications for attendance records.
-Database Integration: Store attendance records in a database for better management.
+Improve Recognition Accuracy: Incorporate deep learning models for better accuracy.  
+GUI Interface: Develop a graphical user interface for easier interaction.  
+Email Notifications: Send email notifications for attendance records.  
+Database Integration: Store attendance records in a database for better management.  
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
