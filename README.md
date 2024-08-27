@@ -2,25 +2,25 @@
 This project implements a face recognition-based attendance system using Python, OpenCV, and machine learning techniques. The system captures and recognizes faces in real-time, marking attendance in a CSV file with timestamps. This is an ideal solution for environments like classrooms or offices where automatic and reliable attendance tracking is needed.
 
 # Features
-Real-time Face Detection: Uses OpenCV's Haar Cascades to detect faces in a live video stream.
-Face Recognition: Identifies registered faces using a K-Nearest Neighbors (KNN) classifier.
-Automated Attendance Logging: Logs attendance in a CSV file with the person's name and timestamp.
-Voice Notification: Confirms attendance with a voice message.
-Data Persistence: Saves face encodings and names for future recognition.
-Project Structure
-README.md: Documentation for the project.
-add_faces.py: Script to add new faces to the system.
-attendance_<date>.csv: CSV files where attendance records are saved.
-faces_data.pkl: Serialized file containing face encodings.
-names.pkl: Serialized file containing names associated with face encodings.
-haarcascade_frontalface_default.xml: Haar Cascade model for face detection.
-test_face_recognition.py: Main script to run the face recognition attendance system.
-Installation
-Clone the repository:
-git clone https://github.com/minhazeee39/face_recognition_attendance.git
-cd face_recognition_attendance
-Install the required packages:
-pip install opencv-python numpy scikit-learn pywin32
+Real-time Face Detection: Uses OpenCV's Haar Cascades to detect faces in a live video stream.  
+Face Recognition: Identifies registered faces using a K-Nearest Neighbors (KNN) classifier.  
+Automated Attendance Logging: Logs attendance in a CSV file with the person's name and timestamp.  
+Voice Notification: Confirms attendance with a voice message.  
+Data Persistence: Saves face encodings and names for future recognition.  
+Project Structure  
+README.md: Documentation for the project.  
+add_faces.py: Script to add new faces to the system.  
+attendance_<date>.csv: CSV files where attendance records are saved.  
+faces_data.pkl: Serialized file containing face encodings.  
+names.pkl: Serialized file containing names associated with face encodings.  
+haarcascade_frontalface_default.xml: Haar Cascade model for face detection.  
+test_face_recognition.py: Main script to run the face recognition attendance system.  
+Installation  
+Clone the repository:  
+git clone https:/github.com/minhazeee39/face_recognition_attendance.git
+cd face_recognition_attendance  
+Install the required packages:  
+pip install opencv-python numpy scikit-learn pywin32  
 Ensure the Haar Cascade model is in the correct directory.
 
 The haarcascade_frontalface_default.xml file should be placed in the same directory as your scripts.
